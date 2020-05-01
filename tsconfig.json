@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "es2017",
+    "lib": [
+      "esnext"
+    ],
+    "target": "esnext",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -19,8 +22,11 @@
     "baseUrl": "src",
     "outDir": "dist",
     "paths": {
-      "*": [
-        "@types/*"
+      "@local/*": [
+        "src/*"
+      ],
+      "@root/*": [
+        "./*"
       ]
     },
     "typeRoots": [
