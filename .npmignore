@@ -1,7 +1,10 @@
 *.log
 .editorconfig
+.env*
 .eslintrc.js
 .github
+.gitattributes
+.nycrc
 .nyc_output
 .vscode
 Makefile
